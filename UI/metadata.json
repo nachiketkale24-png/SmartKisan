@@ -1,0 +1,9 @@
+
+{
+  "name": "Kisan Protect - Smart Farming Assistant",
+  "description": "An offline-first agricultural insurance and smart farming application designed for farmers to monitor crop health, manage irrigation, and file claims.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
