@@ -11,6 +11,7 @@ import {
 import { Audio } from 'expo-av';
 import * as Speech from 'expo-speech';
 import { t } from '../i18n/translations';
+import { processVoiceCommand, IntentResult } from '../services/intentRouter';
 
 const { width, height } = Dimensions.get('window');
 
@@ -18,15 +19,20 @@ interface VoiceModalProps {
   visible: boolean;
   onClose: () => void;
   onVoiceResult?: (text: string) => void;
+  onNavigate?: (route: string, params?: any) => void;
+  onAction?: (action: string, params?: any) => void;
 }
 
 const VoiceModal: React.FC<VoiceModalProps> = ({
   visible,
   onClose,
   onVoiceResult,
+  onNavigate,
+  onAction,
 }) => {
   const [isListening, setIsListening] = useState(false);
   const [transcript, setTranscript] = useState('');
+  const [intentResponse, setIntentResponse] = useState('');
   const [recording, setRecording] = useState<Audio.Recording | null>(null);
   const pulseAnim = useRef(new Animated.Value(1)).current;
 
@@ -89,20 +95,47 @@ const VoiceModal: React.FC<VoiceModalProps> = ({
       setRecording(null);
       setIsListening(false);
 
-      // Demo transcript (in real app, send audio to speech-to-text service)
+      // Demo transcripts - In real app, send audio to speech-to-text service
+      // Include voice commands for schemes and prices
       const demoTranscripts = [
         'गेहूं में कितना पानी दूं?',
         'आज सिंचाई करनी चाहिए क्या?',
         'फसल की स्थिति बताओ',
         'खाद कब डालनी है?',
+        'scheme dikhao',
+        'bhav batao',
+        'gehu ka bhav',
+        'eligible hoon kya',
+        'sarkari yojana dikhao',
+        'mandi bhav batao',
       ];
       const randomTranscript =
         demoTranscripts[Math.floor(Math.random() * demoTranscripts.length)];
       
       setTranscript(randomTranscript);
 
-      // Speak confirmation
-      Speech.speak(`आपने कहा: ${randomTranscript}`, { language: 'hi-IN' });
+      // Process the command through intent router
+      const { result, response, shouldNavigate } = processVoiceCommand(randomTranscript);
+      setIntentResponse(response);
+
+      // Speak confirmation with intent response
+      Speech.speak(`आपने कहा: ${randomTranscript}. ${response}`, { 
+        language: 'hi-IN',
+        onDone: () => {
+          // Handle navigation after speaking
+          if (shouldNavigate && result.navigateTo && onNavigate) {
+            setTimeout(() => {
+              onNavigate(result.navigateTo!, result.parameters);
+              handleClose();
+            }, 500);
+          }
+
+          // Handle special actions
+          if (result.action && onAction) {
+            onAction(result.action, result.parameters);
+          }
+        },
+      });
 
       if (onVoiceResult) {
         onVoiceResult(randomTranscript);
@@ -127,6 +160,7 @@ const VoiceModal: React.FC<VoiceModalProps> = ({
     }
     setIsListening(false);
     setTranscript('');
+    setIntentResponse('');
     onClose();
   };
 
@@ -181,6 +215,9 @@ const VoiceModal: React.FC<VoiceModalProps> = ({
           {transcript ? (
             <View style={styles.transcriptContainer}>
               <Text style={styles.transcript}>{transcript}</Text>
+              {intentResponse ? (
+                <Text style={styles.intentResponse}>{intentResponse}</Text>
+              ) : null}
             </View>
           ) : null}
 
@@ -297,6 +334,13 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     textAlign: 'center',
     lineHeight: 28,
+  },
+  intentResponse: {
+    fontSize: 16,
+    color: '#4CAF50',
+    textAlign: 'center',
+    marginTop: 12,
+    fontStyle: 'italic',
   },
   waveContainer: {
     flexDirection: 'row',

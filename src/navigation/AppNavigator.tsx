@@ -10,6 +10,13 @@ import AssistantScreen from '../screens/AssistantScreen';
 import CropDetailsScreen from '../screens/CropDetailsScreen';
 import IrrigationRecommendationScreen from '../screens/IrrigationRecommendationScreen';
 import DiseaseDetailsScreen from '../screens/DiseaseDetailsScreen';
+import HealthHomeScreen from '../screens/HealthHomeScreen';
+import CropHealthDetailScreen from '../screens/CropHealthDetailScreen';
+import DiseaseScanScreen from '../screens/DiseaseScanScreen';
+import DiseaseResultScreen from '../screens/DiseaseResultScreen';
+import GovernmentSchemesScreen from '../screens/GovernmentSchemesScreen';
+import SchemeDetailScreen from '../screens/SchemeDetailScreen';
+import MarketPricesScreen from '../screens/MarketPricesScreen';
 
 import { RootStackParamList, TabParamList } from '../types';
 
@@ -51,6 +58,15 @@ const TabNavigator: React.FC = () => {
         options={{
           tabBarIcon: ({ focused }) => (
             <TabIcon icon="💧" label="सिंचाई" focused={focused} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Health"
+        component={HealthHomeScreen}
+        options={{
+          tabBarIcon: ({ focused }) => (
+            <TabIcon icon="🏥" label="स्वास्थ्य" focused={focused} />
           ),
         }}
       />
@@ -112,6 +128,66 @@ const AppNavigator: React.FC = () => {
           headerTitle: 'रोग विवरण',
           headerTintColor: '#FFFFFF',
           headerStyle: { backgroundColor: '#FF9800' },
+        }}
+      />
+      <Stack.Screen
+        name="CropHealthDetail"
+        component={CropHealthDetailScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'फसल स्वास्थ्य विवरण',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#2E7D32' },
+        }}
+      />
+      <Stack.Screen
+        name="DiseaseScan"
+        component={DiseaseScanScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'रोग स्कैन',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#2E7D32' },
+        }}
+      />
+      <Stack.Screen
+        name="DiseaseResult"
+        component={DiseaseResultScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'निदान परिणाम',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#FF9800' },
+        }}
+      />
+      <Stack.Screen
+        name="GovernmentSchemes"
+        component={GovernmentSchemesScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'सरकारी योजनाएं',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#1565C0' },
+        }}
+      />
+      <Stack.Screen
+        name="SchemeDetail"
+        component={SchemeDetailScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'योजना विवरण',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#1565C0' },
+        }}
+      />
+      <Stack.Screen
+        name="MarketPrices"
+        component={MarketPricesScreen}
+        options={{
+          headerShown: true,
+          headerTitle: 'मंडी भाव',
+          headerTintColor: '#FFFFFF',
+          headerStyle: { backgroundColor: '#E65100' },
         }}
       />
     </Stack.Navigator>

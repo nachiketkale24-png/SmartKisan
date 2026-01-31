@@ -1,0 +1,192 @@
+{
+  "lastUpdated": "2026-01-31T10:00:00",
+  "schemes": [
+    {
+      "id": "pm-kisan",
+      "name": "PM-KISAN Samman Nidhi",
+      "nameHindi": "पीएम-किसान सम्मान निधि",
+      "benefit": "₹6,000/year",
+      "benefitAmount": 6000,
+      "deadline": "2026-03-31",
+      "status": "Open",
+      "description": "Direct income support of ₹6,000 per year to small and marginal farmer families having combined land holding up to 2 hectares. Amount is transferred in three equal installments of ₹2,000 each.",
+      "descriptionHindi": "2 हेक्टेयर तक की संयुक्त भूमि वाले छोटे और सीमांत किसान परिवारों को प्रति वर्ष ₹6,000 की प्रत्यक्ष आय सहायता।",
+      "benefits": [
+        "₹6,000 annual income support",
+        "Direct bank transfer",
+        "No middleman involvement",
+        "Three installments of ₹2,000 each"
+      ],
+      "eligibility": {
+        "maxLandSize": 5,
+        "aadhaarRequired": true,
+        "bankAccountRequired": true,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Account Details",
+        "Land Records (Khatauni)",
+        "Mobile Number"
+      ],
+      "applyMethod": "Online / CSC Center",
+      "applyLink": "https://pmkisan.gov.in"
+    },
+    {
+      "id": "pmfby",
+      "name": "PM Fasal Bima Yojana",
+      "nameHindi": "पीएम फसल बीमा योजना",
+      "benefit": "Crop Insurance",
+      "benefitAmount": 0,
+      "deadline": "2026-02-28",
+      "status": "Open",
+      "description": "Comprehensive crop insurance scheme providing financial support to farmers suffering crop loss due to natural calamities, pests & diseases. Premium is just 2% for Kharif, 1.5% for Rabi crops.",
+      "descriptionHindi": "प्राकृतिक आपदाओं, कीटों और बीमारियों के कारण फसल हानि से पीड़ित किसानों को वित्तीय सहायता प्रदान करने वाली व्यापक फसल बीमा योजना।",
+      "benefits": [
+        "Low premium rates (2% Kharif, 1.5% Rabi)",
+        "Coverage for natural calamities",
+        "Protection against pests and diseases",
+        "Quick claim settlement"
+      ],
+      "eligibility": {
+        "maxLandSize": 100,
+        "aadhaarRequired": true,
+        "bankAccountRequired": true,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Bank Passbook",
+        "Land Records",
+        "Sowing Certificate"
+      ],
+      "applyMethod": "Online / Bank / CSC",
+      "applyLink": "https://pmfby.gov.in"
+    },
+    {
+      "id": "kcc",
+      "name": "Kisan Credit Card",
+      "nameHindi": "किसान क्रेडिट कार्ड",
+      "benefit": "₹3 Lakh Credit",
+      "benefitAmount": 300000,
+      "deadline": "2026-12-31",
+      "status": "Open",
+      "description": "Credit facility for farmers to meet their agricultural and other needs. Provides timely access to credit at 4% interest rate. Includes crop production, post-harvest expenses, and consumption needs.",
+      "descriptionHindi": "किसानों को उनकी कृषि और अन्य जरूरतों को पूरा करने के लिए ऋण सुविधा। 4% ब्याज दर पर समय पर ऋण प्रदान करता है।",
+      "benefits": [
+        "Credit up to ₹3 Lakh",
+        "Low interest rate (4%)",
+        "Flexible repayment",
+        "Insurance coverage included"
+      ],
+      "eligibility": {
+        "maxLandSize": 100,
+        "aadhaarRequired": true,
+        "bankAccountRequired": true,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "PAN Card",
+        "Land Documents",
+        "Passport Photo",
+        "Bank Statement"
+      ],
+      "applyMethod": "Bank Branch",
+      "applyLink": ""
+    },
+    {
+      "id": "soil-health",
+      "name": "Soil Health Card Scheme",
+      "nameHindi": "मृदा स्वास्थ्य कार्ड योजना",
+      "benefit": "Free Soil Testing",
+      "benefitAmount": 0,
+      "deadline": "2026-06-30",
+      "status": "Open",
+      "description": "Free soil health cards issued to farmers providing crop-wise recommendations on nutrients and fertilizers. Helps improve productivity and reduce input costs.",
+      "descriptionHindi": "किसानों को मुफ्त मृदा स्वास्थ्य कार्ड जारी किए जाते हैं जो पोषक तत्वों और उर्वरकों पर फसल-वार सिफारिशें प्रदान करते हैं।",
+      "benefits": [
+        "Free soil testing",
+        "Crop-wise fertilizer recommendations",
+        "Improved crop yield",
+        "Reduced fertilizer costs"
+      ],
+      "eligibility": {
+        "maxLandSize": 100,
+        "aadhaarRequired": false,
+        "bankAccountRequired": false,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card (optional)",
+        "Land Records",
+        "Mobile Number"
+      ],
+      "applyMethod": "Agriculture Office / CSC",
+      "applyLink": "https://soilhealth.dac.gov.in"
+    },
+    {
+      "id": "pm-kusum",
+      "name": "PM-KUSUM Solar Pump",
+      "nameHindi": "पीएम-कुसुम सोलर पंप",
+      "benefit": "60% Subsidy",
+      "benefitAmount": 0,
+      "deadline": "2026-03-15",
+      "status": "Open",
+      "description": "Scheme to install solar pumps and grid-connected solar power plants. Government provides 60% subsidy on solar pump installation. Helps reduce electricity costs and promotes clean energy.",
+      "descriptionHindi": "सोलर पंप और ग्रिड-कनेक्टेड सोलर पावर प्लांट लगाने की योजना। सरकार सोलर पंप स्थापना पर 60% सब्सिडी प्रदान करती है।",
+      "benefits": [
+        "60% government subsidy",
+        "Reduced electricity bills",
+        "7.5 HP solar pump",
+        "25-year lifespan"
+      ],
+      "eligibility": {
+        "maxLandSize": 100,
+        "aadhaarRequired": true,
+        "bankAccountRequired": true,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Land Documents",
+        "Bank Account",
+        "Electricity Bill (if applicable)"
+      ],
+      "applyMethod": "Online / Agriculture Office",
+      "applyLink": "https://pmkusum.mnre.gov.in"
+    },
+    {
+      "id": "smam",
+      "name": "Farm Machinery Subsidy (SMAM)",
+      "nameHindi": "कृषि यंत्र सब्सिडी (SMAM)",
+      "benefit": "50-80% Subsidy",
+      "benefitAmount": 0,
+      "deadline": "2026-02-15",
+      "status": "Closing Soon",
+      "description": "Sub-Mission on Agricultural Mechanization provides 50-80% subsidy on farm machinery like tractors, harvesters, tillers, and sprayers. Special benefits for SC/ST and small farmers.",
+      "descriptionHindi": "कृषि मशीनीकरण पर उप-मिशन ट्रैक्टर, हार्वेस्टर, टिलर और स्प्रेयर जैसी कृषि मशीनरी पर 50-80% सब्सिडी प्रदान करता है।",
+      "benefits": [
+        "50-80% subsidy on machinery",
+        "Higher subsidy for SC/ST farmers",
+        "Wide range of equipment covered",
+        "Custom hiring centers support"
+      ],
+      "eligibility": {
+        "maxLandSize": 10,
+        "aadhaarRequired": true,
+        "bankAccountRequired": true,
+        "states": ["All States"]
+      },
+      "documents": [
+        "Aadhaar Card",
+        "Caste Certificate (if applicable)",
+        "Land Records",
+        "Bank Account",
+        "Quotation from dealer"
+      ],
+      "applyMethod": "Online / Agriculture Office",
+      "applyLink": "https://agrimachinery.nic.in"
+    }
+  ]
+}

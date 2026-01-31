@@ -1,0 +1,71 @@
+{
+  "lastUpdated": "2026-02-01T08:00:00",
+  "prices": [
+    {
+      "crop": "Wheat",
+      "cropHindi": "गेहूं",
+      "mandis": [
+        { "name": "Azadpur Mandi, Delhi", "nameHindi": "आजादपुर मंडी, दिल्ली", "price": 2450, "trend": "up", "change": 50 },
+        { "name": "Karnal Mandi, Haryana", "nameHindi": "करनाल मंडी, हरियाणा", "price": 2380, "trend": "up", "change": 30 },
+        { "name": "Indore Mandi, MP", "nameHindi": "इंदौर मंडी, मध्य प्रदेश", "price": 2320, "trend": "down", "change": -20 },
+        { "name": "Ludhiana Mandi, Punjab", "nameHindi": "लुधियाना मंडी, पंजाब", "price": 2400, "trend": "up", "change": 40 },
+        { "name": "Jaipur Mandi, Rajasthan", "nameHindi": "जयपुर मंडी, राजस्थान", "price": 2350, "trend": "stable", "change": 0 }
+      ]
+    },
+    {
+      "crop": "Rice",
+      "cropHindi": "चावल",
+      "mandis": [
+        { "name": "Azadpur Mandi, Delhi", "nameHindi": "आजादपुर मंडी, दिल्ली", "price": 3200, "trend": "up", "change": 80 },
+        { "name": "Karnal Mandi, Haryana", "nameHindi": "करनाल मंडी, हरियाणा", "price": 3150, "trend": "up", "change": 60 },
+        { "name": "Patna Mandi, Bihar", "nameHindi": "पटना मंडी, बिहार", "price": 3050, "trend": "down", "change": -30 },
+        { "name": "Cuttack Mandi, Odisha", "nameHindi": "कटक मंडी, ओडिशा", "price": 3100, "trend": "stable", "change": 0 },
+        { "name": "Vijayawada Mandi, AP", "nameHindi": "विजयवाड़ा मंडी, आंध्र प्रदेश", "price": 3250, "trend": "up", "change": 100 }
+      ]
+    },
+    {
+      "crop": "Cotton",
+      "cropHindi": "कपास",
+      "mandis": [
+        { "name": "Rajkot Mandi, Gujarat", "nameHindi": "राजकोट मंडी, गुजरात", "price": 6800, "trend": "up", "change": 150 },
+        { "name": "Nagpur Mandi, Maharashtra", "nameHindi": "नागपुर मंडी, महाराष्ट्र", "price": 6650, "trend": "up", "change": 100 },
+        { "name": "Guntur Mandi, AP", "nameHindi": "गुंटूर मंडी, आंध्र प्रदेश", "price": 6700, "trend": "stable", "change": 0 },
+        { "name": "Indore Mandi, MP", "nameHindi": "इंदौर मंडी, मध्य प्रदेश", "price": 6550, "trend": "down", "change": -50 },
+        { "name": "Sirsa Mandi, Haryana", "nameHindi": "सिरसा मंडी, हरियाणा", "price": 6600, "trend": "up", "change": 80 }
+      ]
+    },
+    {
+      "crop": "Onion",
+      "cropHindi": "प्याज",
+      "mandis": [
+        { "name": "Lasalgaon Mandi, Nashik", "nameHindi": "लासलगांव मंडी, नासिक", "price": 1800, "trend": "down", "change": -200 },
+        { "name": "Azadpur Mandi, Delhi", "nameHindi": "आजादपुर मंडी, दिल्ली", "price": 2100, "trend": "down", "change": -150 },
+        { "name": "Indore Mandi, MP", "nameHindi": "इंदौर मंडी, मध्य प्रदेश", "price": 1950, "trend": "down", "change": -100 },
+        { "name": "Bangalore Mandi, Karnataka", "nameHindi": "बैंगलोर मंडी, कर्नाटक", "price": 2200, "trend": "stable", "change": 0 },
+        { "name": "Chennai Mandi, TN", "nameHindi": "चेन्नई मंडी, तमिलनाडु", "price": 2150, "trend": "up", "change": 50 }
+      ]
+    },
+    {
+      "crop": "Tomato",
+      "cropHindi": "टमाटर",
+      "mandis": [
+        { "name": "Azadpur Mandi, Delhi", "nameHindi": "आजादपुर मंडी, दिल्ली", "price": 2800, "trend": "up", "change": 300 },
+        { "name": "Kolar Mandi, Karnataka", "nameHindi": "कोलार मंडी, कर्नाटक", "price": 2500, "trend": "up", "change": 200 },
+        { "name": "Pune Mandi, Maharashtra", "nameHindi": "पुणे मंडी, महाराष्ट्र", "price": 2650, "trend": "up", "change": 250 },
+        { "name": "Madanapalle Mandi, AP", "nameHindi": "मदनपल्ली मंडी, आंध्र प्रदेश", "price": 2400, "trend": "stable", "change": 0 },
+        { "name": "Indore Mandi, MP", "nameHindi": "इंदौर मंडी, मध्य प्रदेश", "price": 2550, "trend": "up", "change": 150 }
+      ]
+    },
+    {
+      "crop": "Sugarcane",
+      "cropHindi": "गन्ना",
+      "mandis": [
+        { "name": "Muzaffarnagar, UP", "nameHindi": "मुजफ्फरनगर, उत्तर प्रदेश", "price": 350, "trend": "stable", "change": 0 },
+        { "name": "Kolhapur, Maharashtra", "nameHindi": "कोल्हापुर, महाराष्ट्र", "price": 340, "trend": "up", "change": 10 },
+        { "name": "Belgaum, Karnataka", "nameHindi": "बेलगाम, कर्नाटक", "price": 335, "trend": "stable", "change": 0 },
+        { "name": "Karnal, Haryana", "nameHindi": "करनाल, हरियाणा", "price": 345, "trend": "up", "change": 5 },
+        { "name": "Haridwar, Uttarakhand", "nameHindi": "हरिद्वार, उत्तराखंड", "price": 348, "trend": "up", "change": 8 }
+      ]
+    }
+  ]
+}

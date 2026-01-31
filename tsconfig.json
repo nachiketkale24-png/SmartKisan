@@ -2,7 +2,9 @@
   "compilerOptions": {
     "target": "esnext",
     "module": "commonjs",
-    "lib": ["esnext"],
+    "lib": [
+      "esnext"
+    ],
     "jsx": "react-native",
     "strict": true,
     "moduleResolution": "node",
@@ -12,8 +14,14 @@
     "resolveJsonModule": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": [
+        "src/*"
+      ]
     }
   },
-  "exclude": ["node_modules", "babel.config.js"]
+  "exclude": [
+    "node_modules",
+    "babel.config.js"
+  ],
+  "extends": "expo/tsconfig.base"
 }

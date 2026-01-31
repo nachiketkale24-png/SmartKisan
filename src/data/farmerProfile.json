@@ -1,0 +1,19 @@
+{
+  "farmerId": "FARMER001",
+  "name": "Ramesh Kumar",
+  "nameHindi": "रमेश कुमार",
+  "phone": "9876543210",
+  "state": "Madhya Pradesh",
+  "stateHindi": "मध्य प्रदेश",
+  "district": "Indore",
+  "village": "Sanwer",
+  "landSize": 3.5,
+  "landUnit": "acres",
+  "cropTypes": ["Wheat", "Cotton", "Onion"],
+  "aadhaarLinked": true,
+  "bankLinked": true,
+  "bankName": "State Bank of India",
+  "kccHolder": false,
+  "category": "General",
+  "registeredSchemes": ["pm-kisan", "pmfby"]
+}

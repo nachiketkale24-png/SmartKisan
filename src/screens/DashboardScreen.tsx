@@ -218,6 +218,30 @@ const DashboardScreen: React.FC = () => {
       {/* Priority Irrigation */}
       {renderPriorityIrrigation()}
 
+      {/* Quick Access Buttons */}
+      <View style={styles.quickAccessSection}>
+        <Text style={styles.quickAccessTitle}>त्वरित पहुँच / Quick Access</Text>
+        <View style={styles.quickAccessRow}>
+          <TouchableOpacity
+            style={[styles.quickAccessButton, { backgroundColor: '#E3F2FD' }]}
+            onPress={() => navigation.navigate('GovernmentSchemes')}
+          >
+            <Text style={styles.quickAccessIcon}>🏛️</Text>
+            <Text style={styles.quickAccessText}>सरकारी योजनाएं</Text>
+            <Text style={styles.quickAccessSubtext}>Government Schemes</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity
+            style={[styles.quickAccessButton, { backgroundColor: '#FFF3E0' }]}
+            onPress={() => navigation.navigate('MarketPrices')}
+          >
+            <Text style={styles.quickAccessIcon}>🏪</Text>
+            <Text style={styles.quickAccessText}>मंडी भाव</Text>
+            <Text style={styles.quickAccessSubtext}>Market Prices</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+
       {/* My Crops Section */}
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
@@ -540,6 +564,48 @@ const styles = StyleSheet.create({
     color: '#757575',
     fontSize: 14,
     padding: 20,
+  },
+  quickAccessSection: {
+    marginTop: 16,
+    paddingHorizontal: 16,
+  },
+  quickAccessTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#333',
+    marginBottom: 12,
+  },
+  quickAccessRow: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  quickAccessButton: {
+    flex: 1,
+    borderRadius: 16,
+    padding: 16,
+    marginHorizontal: 4,
+    alignItems: 'center',
+    elevation: 2,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.1,
+    shadowRadius: 3,
+  },
+  quickAccessIcon: {
+    fontSize: 36,
+    marginBottom: 8,
+  },
+  quickAccessText: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#333',
+    textAlign: 'center',
+  },
+  quickAccessSubtext: {
+    fontSize: 11,
+    color: '#666',
+    textAlign: 'center',
+    marginTop: 2,
   },
 });
 

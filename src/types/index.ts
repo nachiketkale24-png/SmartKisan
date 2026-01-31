@@ -77,11 +77,35 @@ export type RootStackParamList = {
   CropDetails: { cropId: string };
   IrrigationRecommendation: { cropId?: string };
   DiseaseDetails: { diseaseId: string };
+  HealthHome: undefined;
+  CropHealthDetail: { cropId: string };
+  DiseaseScan: {
+    cropId: string;
+    cropName: string;
+    imageUri: string;
+  };
+  DiseaseResult: {
+    diseaseName: string;
+    diseaseNameHindi?: string;
+    severity: 'Low' | 'Medium' | 'High';
+    cause: string;
+    causeHindi?: string;
+    solution: string;
+    solutionHindi?: string;
+    prevention: string;
+    preventionHindi?: string;
+    imageUri?: string;
+    cropName: string;
+  };
+  GovernmentSchemes: undefined;
+  SchemeDetail: { schemeId: string };
+  MarketPrices: undefined;
 };
 
 export type TabParamList = {
   Dashboard: undefined;
   Irrigation: undefined;
+  Health: undefined;
   Alerts: undefined;
   Assistant: undefined;
 };
