@@ -1,0 +1,30 @@
+﻿# Dependencies
+node_modules/
+*/node_modules/
+
+# Build outputs
+dist/
+build/
+.expo/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment files
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Expo
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
