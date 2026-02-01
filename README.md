@@ -535,14 +535,14 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 All screenshots and UI mockups are available in the [assets](assets/) directory. Here's a comprehensive visual tour:
 
 ### 🔧 **1. IoT Hardware Integration**
-![IoT Hardware](assets/1_iot_hardware.jpg)
+![IoT Hardware](assets/1_iot_hardware.jpeg)
 - Real sensor integration with breadboards
 - Arduino/Microcontroller setup for soil moisture, temperature monitoring
 - Direct integration with SmartKisan app for real-time data
 - Multi-sensor node configuration for comprehensive farm monitoring
 
 ### 📊 **2. Dashboard Overview**
-![Dashboard Screen](assets/2_dashboard.jpg)
+![Dashboard Screen](assets/2_dashboard.jpeg)
 - Comprehensive farm overview at a glance
 - Crop status cards with health indicators
 - Priority tasks sorted by urgency
@@ -551,7 +551,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Real-time alerts and notifications
 
 ### 🎯 **3. Dashboard (Detailed View 2)**
-![Dashboard Extended](assets/3_dashboard_2.jpg)
+![Dashboard Extended](assets/3_dashboard_2.jpeg)
 - My Crops section with individual crop cards
 - Crop status badges (Good/Warning/Critical)
 - Land area details (in acres)
@@ -560,7 +560,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Quick access to crop details
 
 ### 💧 **4. Irrigation Recommendations**
-![Irrigation Screen](assets/4_irrigation.jpg)
+![Irrigation Screen](assets/4_irrigation.jpeg)
 - Smart Irrigation statistics (148K liters, 20% water saved)
 - Soil type selection (Loamy, Sandy, Clay)
 - AI-powered recommendation button
@@ -573,7 +573,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Crop-specific irrigation advice in Hindi
 
 ### 🏥 **5. Crop Health Monitor**
-![Health Monitor Screen](assets/5_health_monitor.jpg)
+![Health Monitor Screen](assets/5_health_monitor.jpeg)
 - Health Monitor dashboard (फसल स्वास्थ्य निगरानी)
 - Health status overview: 2 Healthy, 1 Warning, 1 Critical
 - Your Crops section with 4 crops tracked
@@ -588,7 +588,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Global microphone button for voice commands
 
 ### 🚨 **6. Alerts & Notifications**
-![Alerts Screen](assets/6_alerts.jpg)
+![Alerts Screen](assets/6_alerts.jpeg)
 - **Severe Alerts** (गंभीर अलर्ट) - Red notifications
   - Cotton disease alert with action prompt
   
@@ -608,7 +608,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Alert count indicators (1, 2, etc.)
 
 ### 🎤 **7. Voice Assistant Modal**
-![Voice Assistant](assets/7_voice_assistant.jpg)
+![Voice Assistant](assets/7_voice_assistant.jpeg)
 - **बोलकर पूछो** (Ask by Speaking) interface
 - Large microphone button (green circle) for voice input
 - "माइक दबाकर बोलें" (Press mic and speak) instruction
@@ -625,7 +625,7 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 - Dark theme for night usage
 
 ### 💬 **8. AI Chatbot Assistant**
-![AI Assistant Chatbot](assets/8_ai_chatbot.jpg)
+![AI Assistant Chatbot](assets/8_ai_chatbot.jpeg)
 - **AI Assistant** with online status indicator (🟢 Online)
 - Quick question suggestions at top:
   - "गेहूं में पानी?" (Water for Wheat?)
@@ -647,14 +647,14 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 
 ```
 assets/
-├── 1_iot_hardware.jpg              # Hardware sensor setup
-├── 2_dashboard.jpg                 # Main dashboard overview
-├── 3_dashboard_2.jpg               # Dashboard detailed view
-├── 4_irrigation.jpg                # Irrigation recommendations
-├── 5_health_monitor.jpg            # Crop health monitoring
-├── 6_alerts.jpg                    # Alerts & notifications
-├── 7_voice_assistant.jpg           # Voice command interface
-├── 8_ai_chatbot.jpg                # AI chatbot assistant
+├── 1_iot_hardware.jpeg              # Hardware sensor setup
+├── 2_dashboard.jpeg                 # Main dashboard overview
+├── 3_dashboard_2.jpeg               # Dashboard detailed view
+├── 4_irrigation.jpeg                # Irrigation recommendations
+├── 5_health_monitor.jpeg            # Crop health monitoring
+├── 6_alerts.jpeg                    # Alerts & notifications
+├── 7_voice_assistant.jpeg           # Voice command interface
+├── 8_ai_chatbot.jpeg                # AI chatbot assistant
 └── Other assets...
 ```
 
