@@ -547,6 +547,31 @@ All screenshots and UI mockups are available in the [assets](assets/) directory.
 
 ---
 
+## 🎬 Working Prototype Demo
+
+<div align="center">
+
+**See SmartKisan in Action!**
+
+<video width="320" height="640" controls>
+  <source src="assets/working_prototype.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+📹 **working_prototype.mp4** - Full feature walkthrough demonstrating:
+- ✅ Voice command execution
+- ✅ Dashboard navigation
+- ✅ Market price lookup
+- ✅ Irrigation recommendations
+- ✅ Government schemes eligibility
+- ✅ Crop health monitoring
+- ✅ Real-time alerts
+- ✅ AI chatbot interaction
+
+</div>
+
+---
+
 ## 📁 Assets Directory Structure
 
 ```
@@ -559,7 +584,7 @@ assets/
 ├── 6_alerts.jpeg                    # Alerts & notifications
 ├── 7_voice_assistant.jpeg           # Voice command interface
 ├── 8_ai_chatbot.jpeg                # AI chatbot assistant
-└── Other assets...
+└── working_prototype.mp4            # Full feature demo video
 ```
 
 ---
