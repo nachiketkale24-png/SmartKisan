@@ -534,112 +534,16 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 All screenshots and UI mockups are available in the [assets](assets/) directory. Here's a comprehensive visual tour:
 
-### 🔧 **1. IoT Hardware Integration**
-![IoT Hardware](assets/1_iot_hardware.jpeg)
-- Real sensor integration with breadboards
-- Arduino/Microcontroller setup for soil moisture, temperature monitoring
-- Direct integration with SmartKisan app for real-time data
-- Multi-sensor node configuration for comprehensive farm monitoring
-
-### 📊 **2. Dashboard Overview**
-![Dashboard Screen](assets/2_dashboard.jpeg)
-- Comprehensive farm overview at a glance
-- Crop status cards with health indicators
-- Priority tasks sorted by urgency
-- Quick action buttons for main features
-- Bilingual Hindi/English interface
-- Real-time alerts and notifications
-
-### 🎯 **3. Dashboard (Detailed View 2)**
-![Dashboard Extended](assets/3_dashboard_2.jpeg)
-- My Crops section with individual crop cards
-- Crop status badges (Good/Warning/Critical)
-- Land area details (in acres)
-- Disease alerts with timestamps
-- Smooth navigation and filtering options
-- Quick access to crop details
-
-### 💧 **4. Irrigation Recommendations**
-![Irrigation Screen](assets/4_irrigation.jpeg)
-- Smart Irrigation statistics (148K liters, 20% water saved)
-- Soil type selection (Loamy, Sandy, Clay)
-- AI-powered recommendation button
-- Today's watering schedule
-- Per-crop water requirements:
-  - Rice: 5000L with 15% water savings
-  - Cotton: 3000L with 20% water savings
-  - Wheat: 3000L (partially visible)
-- Water-saving tips and benefits highlighted
-- Crop-specific irrigation advice in Hindi
-
-### 🏥 **5. Crop Health Monitor**
-![Health Monitor Screen](assets/5_health_monitor.jpeg)
-- Health Monitor dashboard (फसल स्वास्थ्य निगरानी)
-- Health status overview: 2 Healthy, 1 Warning, 1 Critical
-- Your Crops section with 4 crops tracked
-- Individual crop cards showing:
-  - Crop type (Wheat/Rice/Cotton)
-  - Health status with color indicators
-  - Field location
-  - Disease records
-- Quick action buttons:
-  - Scan Disease (फसल जांच)
-  - Health Report (स्वास्थ्य रिपोर्ट)
-- Global microphone button for voice commands
-
-### 🚨 **6. Alerts & Notifications**
-![Alerts Screen](assets/6_alerts.jpeg)
-- **Severe Alerts** (गंभीर अलर्ट) - Red notifications
-  - Cotton disease alert with action prompt
-  
-- **Warnings** (चेतावनी) - Orange notifications
-  - Rice attention needed for extra care
-  
-- **Disease Alerts** (रोग अलर्ट) - Purple badge
-  - Brown Spot in Rice (Status: Moderate)
-  - Bollworm in Cotton (Status: High)
-  
-- **Weather Alerts** (मौसम अलर्ट)
-  - Clear weather today
-  
-- Organized by alert type and severity
-- Action links on each alert
-- Timestamp for each notification
-- Alert count indicators (1, 2, etc.)
-
-### 🎤 **7. Voice Assistant Modal**
-![Voice Assistant](assets/7_voice_assistant.jpeg)
-- **बोलकर पूछो** (Ask by Speaking) interface
-- Large microphone button (green circle) for voice input
-- "माइक दबाकर बोलें" (Press mic and speak) instruction
-- Status: "या नीचे से चुनें" (Or choose from below)
-- **Quick Commands** buttons:
-  - फसल स्कैन (Crop Scan)
-  - बीमारी बताओ (Tell Disease)
-  - सिंचाई (Irrigation)
-  - मौसम (Weather)
-  - मंडी भाव (Market Price)
-  - योजनाएं (Schemes)
-- Text option: "टाइप करके पूछें" (Ask by typing)
-- Floating microphone button for easy access
-- Dark theme for night usage
-
-### 💬 **8. AI Chatbot Assistant**
-![AI Assistant Chatbot](assets/8_ai_chatbot.jpeg)
-- **AI Assistant** with online status indicator (🟢 Online)
-- Quick question suggestions at top:
-  - "गेहूं में पानी?" (Water for Wheat?)
-  - "रोग पहचान" (Disease Detection)
-  - "खाद कब दें?" (When to apply fertilizer?)
-  - "सिंचाई की सलाह" (Irrigation advice)
-- **Assistant Response** (in Hindi):
-  - "नमस्ते! मैं आपका कृषि सहायक हूँ। आप मुझसे फसलों, सिंचाई, खाद या किसी भी कृषि समस्या के बारे में पूछ सकते हैं।"
-  - Translation: "Hello! I'm your agricultural assistant. You can ask me about crops, irrigation, fertilizer, or any farming problem."
-- Timestamp of conversation (1:07 pm)
-- Audio playback option for responses
-- Bottom input: "अपना सवाल पूछें" (Ask your question)
-- Floating microphone for voice input
-- Chat history with clear conversation flow
+| # | Feature | Description |
+|---|---------|-------------|
+| **1** | 🔧 IoT Hardware | <img src="assets/1_iot_hardware.jpeg" width="160" /> Real sensor integration, Arduino/Microcontroller setup |
+| **2** | 📊 Dashboard | <img src="assets/2_dashboard.jpeg" width="160" /> Farm overview, crop cards, tasks, quick actions |
+| **3** | 🎯 Dashboard 2 | <img src="assets/3_dashboard_2.jpeg" width="160" /> My Crops, health badges, disease alerts |
+| **4** | 💧 Irrigation | <img src="assets/4_irrigation.jpeg" width="160" /> Smart stats, soil types, watering schedule |
+| **5** | 🏥 Health Monitor | <img src="assets/5_health_monitor.jpeg" width="160" /> Health dashboard, crop status, scan options |
+| **6** | 🚨 Alerts | <img src="assets/6_alerts.jpeg" width="160" /> Alerts by type & severity, timestamps |
+| **7** | 🎤 Voice Assistant | <img src="assets/7_voice_assistant.jpeg" width="160" /> Voice commands, quick actions |
+| **8** | 💬 AI Chatbot | <img src="assets/8_ai_chatbot.jpeg" width="160" /> AI assistant, suggestions, chat history |
 
 ---
 
